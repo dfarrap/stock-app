@@ -6,16 +6,14 @@
   "author": "Diego Aguilar",
   "license": "MIT",
   "private": false,
-
   "scripts": {
     "dev": "nodemon app.js"
   },
   "dependencies": {
+    "dotenv": "^16.0.1",
     "express": "^4.18.1"
   },
   "devDependencies": {
     "nodemon": "^2.0.16"
   }
 }
-
-
