@@ -36,7 +36,7 @@ app.post('/api/v1/products', (req, res, next) => {
     .then((result) => {
       res.status(201).json({ok:true})
     })
-    .catch((err) => console.log-(err))
+    .catch((err) => console.log(err))
 })
 
 
